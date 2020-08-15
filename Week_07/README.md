@@ -60,21 +60,21 @@ class Trie(object):
     - 左旋
 
 
-  ![image](../image.png)
+  ![image](image.png)
 
     - 右旋
 
-  ![image_1](../image_1.png)
+  ![image_1](image_1.png)
     - 左右旋
 
-  ![image_2](../image_2.png)
-  ![image_3](../image_3.png)
-  ![image_4](../image_4.png)
+  ![image_2](image_2.png)
+  ![image_3](image_3.png)
+  ![image_4](image_4.png)
     - 右左旋
 
-  ![image_5](../image_5.png)
-  ![image_6](../image_6.png)
-  ![image_7](../image_7.png)
+  ![image_5](image_5.png)
+  ![image_6](image_6.png)
+  ![image_7](image_7.png)
 - 不足：结点需要存储额外信息、且调整次数频繁
 ### 红黑树
 - 定义：红黑树是一种近似平衡的二叉搜索树（BinarySearch Tree），它能够确保任何一个结点的左右子树的高度差小于两倍
@@ -85,8 +85,8 @@ class Trie(object):
   - 不能有相邻接的两个红色结点
   - 从任一结点到其每个叶子的所有路径都包含相同数目的黑色结点
 
-  ![image_8](../image_8.png)
-  ![image_9](../image_9.png)
+  ![image_8](image_8.png)
+  ![image_9](image_9.png)
 
   - 关键性质：从根到叶子的最长的可能路径不多于最短的可能路径的两倍长
 ## 并查集
